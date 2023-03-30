@@ -145,12 +145,7 @@ ENABLE_VENDOR_RIL_SERVICE := true
 
 # HIDL
 DEVICE_MANIFEST_FILE := $(DEVICE_PATH)/manifest.xml
-DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE := $(DEVICE_PATH)/framework_compatibility_matrix.xml
 DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += vendor/nusantara/config/device_framework_matrix.xml
-ODM_MANIFEST_SKUS += \
-    begonia
-
-ODM_MANIFEST_BEGONIA_FILES := $(DEVICE_PATH)/manifest_begonia.xml
 
 # Security patch level
 VENDOR_SECURITY_PATCH := 2022-02-01
